@@ -578,8 +578,6 @@ section {
   position: relative;
 }
 
-
-
 .sidenav {
   height: 100%;
   width: 0;
@@ -591,33 +589,28 @@ section {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  color: #fff;
-}
+  color: #fff; }
 
 .sidenav-content {
   padding: 8px 32px;
   transform: translateY(20px);
   opacity: 0;
-  transition: transform 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), opacity 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-}
+  transition: transform 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), opacity 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
 
 .in .sidenav-content {
   transform: translateY(0);
   opacity: 1;
-  transition: transform 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s, opacity 0.5s 0.5s;
-}
+  transition: transform 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s, opacity 0.5s 0.5s; }
 
 .sidenav a {
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s;
-}
+  transition: 0.3s; }
 
 .sidenav a:hover {
-  color: #f1f1f1;
-}
+  color: #f1f1f1; }
 
 .sidenav #side-nav-close,
 .sidenav #side-search-close {
@@ -625,28 +618,20 @@ section {
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px;
-}
+  margin-left: 50px; }
 
 @media screen and (max-height: 450px) {
   .sidenav {
-    padding-top: 15px;
-  }
-
+    padding-top: 15px; }
   .sidenav a {
-    font-size: 18px;
-  }
-}
+    font-size: 18px; } }
 
 #side-search .form-control {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 #side-search .input-group-text {
   background: transparent;
-  color: #fff;
-}
-
+  color: #fff; }
 
 
 .form-control:focus {
