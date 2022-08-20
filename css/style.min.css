@@ -25,6 +25,11 @@ h6,
   margin-top: 0;
 }
 
+#flex{
+  font-size: 100%;
+
+}
+
 a {
   color: #54BF00;
   transition: all .3s ease-in-out;
@@ -47,7 +52,6 @@ a:hover {
 img {
   max-width: 100%;
 }
-
 
 .bg-fixed {
   background-size: cover;
@@ -166,7 +170,7 @@ section {
 }
 
 .jumbotron-single h1 {
-  font-size: 3rem !important;
+  font-size: 225% !important;
 }
 
 .overlay {
